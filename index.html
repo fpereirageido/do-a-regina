@@ -28,8 +28,8 @@
   <link href="assets/css/main.css" rel="stylesheet">
 
   <!-- =======================================================
-  * Template Name: Invent
-  * Template URL: https://bootstrapmade.com/invent-bootstrap-business-template/
+  * Template Name: Dewi
+  * Template URL: https://bootstrapmade.com/dewi-free-multi-purpose-html-template/
   * Updated: May 12 2025 with Bootstrap v5.3.6
   * Author: BootstrapMade.com
   * License: https://bootstrapmade.com/license/
@@ -37,11 +37,6 @@
 </head>
 
 <body class="index-page">
-<script>
-  window.addEventListener('DOMContentLoaded', function () {
-    window.location.hash = '#inicio';
-  });
-</script>
   <header id="header" class="header d-flex align-items-center fixed-top">
     <div class="container position-relative d-flex align-items-center justify-content-between">
 
@@ -53,7 +48,7 @@
 
       <nav id="navmenu" class="navmenu">
         <ul>
-          <li><a href="#inicio">Inicio</a></li>
+          <li><a href="#hero">Inicio</a></li>
           <li><a href="#productos">Productos</a></li>
           <li><a href="#promociones">Promociones</a></li>
           <li><a href="#pedidos">Pedidos</a></li>
@@ -73,6 +68,33 @@
   </header>
 
   <main class="main">
+
+    <!-- Hero Section -->
+    <section id="hero" class="hero">
+      <div class="container">
+        <div class="row align-items-center gy-4">
+          <div class="col-lg-6 order-2 order-lg-1 text-center text-lg-start">
+            <div class="badge-wrapper mb-2">
+              <span class="d-inline-flex align-items-center">
+                <span class="icon-circle"><i class="bi bi-shop"></i></span>
+                <span class="badge-text ms-2">Carnicería Doña Regina</span>
+              </span>
+            </div>
+            <h1 class="hero-title">Calidad y frescura en cada corte</h1>
+            <p class="hero-description">Productos seleccionados y atención personalizada.</p>
+            <div class="cta-wrapper">
+              <a href="#productos" class="btn btn-primary me-2">Ver productos</a>
+              <a href="#contact" class="btn btn-outline-primary">Contacto</a>
+            </div>
+          </div>
+          <div class="col-lg-6 order-1 order-lg-2">
+            <div class="hero-image">
+              <img src="assets/img/cta/cta-4.webp" alt="Carnicería Doña Regina" class="img-fluid">
+            </div>
+          </div>
+        </div>
+      </div>
+    </section><!-- /Hero Section -->
 
     <!-- Inicio Section -->
     <section id="inicio" class="about section">
@@ -388,7 +410,7 @@
         <div class="col-lg-2 col-md-3 footer-links">
           <h4>Enlaces de Interés</h4>
           <ul>
-            <li><a href="#inicio">Inicio</a></li>
+            <li><a href="#hero">Inicio</a></li>
             <li><a href="#productos">Productos</a></li>
             <li><a href="#promociones">Promociones</a></li>
             <li><a href="#pedidos">Pedidos</a></li>
